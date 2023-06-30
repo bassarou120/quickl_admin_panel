@@ -1,0 +1,10 @@
+openapi: 3.0.3
+info:
+  title: 'Ma documentation'
+  description: 'A simple REST API in Laravel'
+  version: 1.0.0
+servers:
+  -
+    url: 'http://localhost'
+paths: []
+tags: []

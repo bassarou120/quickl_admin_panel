@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 class CategoryController extends Controller
 {
 
+
     public function index(Request $request)
     {
         $categories = Category::where('status','yes')->orderBy('ordering','asc')->get();
@@ -19,7 +20,7 @@ class CategoryController extends Controller
             }
             return $category;
         });
-        
+
         $response['success'] = 'Success';
         $response['error'] = NULL;
         $response['data'] = $categories;
