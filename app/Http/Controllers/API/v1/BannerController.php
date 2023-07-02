@@ -6,11 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Banner;
 use Illuminate\Http\Request;
 
-/**
- * @group Banniere
- *
- * APIs poiur Banniere
- */
+
 class BannerController extends Controller
 {
 
