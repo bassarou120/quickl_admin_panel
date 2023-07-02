@@ -10,7 +10,7 @@
     ],
     "info": {
         "name": "Ma documentation",
-        "_postman_id": "efb3305b-a2db-4ac8-a4be-13d8a4d8d337",
+        "_postman_id": "07036a6f-d56a-4710-a2b3-3cd97d72e93b",
         "description": "A simple REST API in Laravel",
         "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.1.0\/collection.json"
     },
